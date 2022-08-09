@@ -1,0 +1,31 @@
+@import '../../scss/vars.scss';
+
+.about {
+    display: flex;
+    align-items: center;
+    column-gap: 56px;
+
+    &__image {
+        max-width: 360px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    &__greetings {
+        margin-bottom: 4px;
+        font-size: 24px;
+        color: $darkPrimary;
+    }
+
+    &__title {
+        margin-bottom: 16px;
+        font-size: 32px;
+        color: $primary;
+    }
+
+    &__paragraph {
+        font-size: 18px;
+        line-height: 24px;
+        color: $darkPrimary;
+    }
+}

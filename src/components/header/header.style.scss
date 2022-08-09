@@ -1,0 +1,29 @@
+@import '../../scss/vars.scss';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 0;
+    margin-bottom: 30px;
+
+    &__logo {
+        color: $primary;
+    }
+
+    &__nav {
+        display: flex;
+        column-gap: 24px;
+
+        &-item {
+            display: inline-block;
+            color: $primary;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        &-item:hover {
+            text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+        }
+    }
+}
