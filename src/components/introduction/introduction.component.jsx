@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandSpock, faClipboardUser } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faTelegram, faVk } from '@fortawesome/free-brands-svg-icons';
 import { getPublicPath } from '../../utils/data';
+import ButtonLink from '../button-link/button-link.component';
 
 const Introduction = () => {
     return (
@@ -21,20 +22,18 @@ const Introduction = () => {
                 </div>
                 <div className="introduction__interactive">
                     <nav className="introduction__socials">
-                        <a href="https://vk.com/id133141513" className="introduction__link">
+                        <a href="https://vk.com/id133141513" target="_blank" className="introduction__link">
                             <FontAwesomeIcon className="introduction__link-icon introduction__link-icon_type_vk" icon={faVk}/>
                         </a>
-                        <a href="https://t.me/ShazhkoDmitriy" className="introduction__link">
+                        <a href="https://t.me/ShazhkoDmitriy" target="_blank" className="introduction__link">
                             <FontAwesomeIcon className="introduction__link-icon introduction__link-icon_type_telegram" icon={faTelegram} />
                         </a>
-                        <a href="https://t.me/ShazhkoDmitriy" className="introduction__link">
+                        <a href="https://t.me/ShazhkoDmitriy" target="_blank" className="introduction__link">
                             <FontAwesomeIcon className="introduction__link-icon introduction__link-icon_type_linkedin" icon={faLinkedinIn} />
                         </a>
                     </nav>
 
-                    <a href={getPublicPath('assets/cv/Shazhko_Dmitriy_CV.pdf')} target="_blank" className="introduction__cv-link">
-                        <FontAwesomeIcon icon={faClipboardUser}/> Скачать Резюме
-                    </a>
+                    <ButtonLink className="introduction__cv-link" url={getPublicPath("assets/cv/Shazhko_Dmitriy_CV.pdf")} icon={faClipboardUser} text="Скачать Резюме"/>
                 </div>
                 
             </div>

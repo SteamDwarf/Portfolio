@@ -1,0 +1,61 @@
+@import '../../../scss/vars.scss';
+
+.projects__item {
+    border-radius: 4px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &-img {
+        max-width: 359px;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    &-information {
+        padding: 16px;
+        max-width: 359px;
+    }
+
+    &-title {
+        margin-bottom: 8px;
+        font-size: 24px;
+        line-height: 32.4px;
+        color: $primary;
+    }
+
+    &-technologies {
+        margin-bottom: 16px;
+    }
+
+    &-technology {
+        display: inline-block;
+        margin-right: 4px;
+        margin-bottom: 4px;
+        padding: 5px 8px;
+        border: 1px solid $primary;
+        border-radius: 4px;
+        transition: all 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            color: #fff;
+            background-color: $primary;
+        }
+    }
+
+    &-description {
+        height: 72px;
+        margin-bottom: 17px;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+    }
+
+    &-link:first-of-type {
+        margin-right: 25px;
+    }
+}

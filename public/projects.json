@@ -1,0 +1,32 @@
+{
+    "dataList": [
+        {
+            "title": "Chatter",
+            "description": "Веб-чат на React с библиотекой Socket.io. В этом проекте я научился поднимать простой сервер на фреймворке Express, как работать с библиотекой Socket.io на стороне клиента и сервера. Также узнал, как TypeScript работает в связке с Express и React. Бэкенд был развернут на Heroku, фронтенд — на Github Pages.",
+            "technologies": ["HTML", "CSS", "React", "TypeScript", "Express", "Socket.io", "Heroku", "Github Pages"],
+            "images": [
+                "assets/projects-images/chatter/3.png",
+                "assets/projects-images/chatter/4.png",
+                "assets/projects-images/chatter/1.png",
+                "assets/projects-images/chatter/2.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/Chatter-frontend",
+            "sourceCode": "https://github.com/SteamDwarf/Chatter"
+        },
+        {
+            "title": "Harry Potter Store",
+            "description": "Простой интернет-магазин товаров из 'Волшебного мира'. В этом проекте я изучил, как работать с React, как работать с состоянием с помощью Redux ToolKit, как отправлять запросы с помощью RTK Query. Также изучил, как выполнять аутентификацию пользователей. ",
+            "technologies": ["HTML", "Sass", "React", "React Router", "Redux ToolKit", "Redux ToolKit Query", "Github Pages"],
+            "images": [
+                "assets/projects-images/hp-store/1.png",
+                "assets/projects-images/hp-store/2.png",
+                "assets/projects-images/hp-store/3.png",
+                "assets/projects-images/hp-store/4.png",
+                "assets/projects-images/hp-store/5.png",
+                "assets/projects-images/hp-store/6.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/HPStore/",
+            "sourceCode": "https://github.com/SteamDwarf/HPStore"
+        }
+    ]
+}

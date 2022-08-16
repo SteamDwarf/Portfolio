@@ -67,26 +67,5 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-
-    &__cv-link {
-        padding: 7px 8px 5px;
-        border: none;
-        border-bottom: 2px solid $primary;
-        font-size: 20px;
-        line-height: 24px;
-        color: $primary;
-        font-weight: bold;
-        background-color: transparent;
-        text-decoration: none;
-        cursor: pointer;
-        transition: all 0.5s;
-    }
-
-    &__cv-link:hover {
-        border-radius: 4px;
-        color: #fff;
-        background-color: $primary;
-    }
-    
+    }    
 }

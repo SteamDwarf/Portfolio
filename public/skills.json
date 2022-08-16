@@ -1,0 +1,89 @@
+{
+    "dataList": [
+        {
+            "id": "html",
+            "name": "HTML5",
+            "icon": "assets/skill-icons/html-5.png"
+        },
+        {
+            "id": "css",
+            "name": "CSS3",
+            "icon": "assets/skill-icons/css-3.png"
+        },
+        {
+            "id": "sass",
+            "name": "Sass",
+            "icon": "assets/skill-icons/sass.png"
+        },
+        {
+            "id": "less",
+            "name": "Less",
+            "icon": "assets/skill-icons/less.png"
+        },
+        {
+            "id": "javascript",
+            "name": "JavaScript",
+            "icon": "assets/skill-icons/js.png"
+        },
+        {
+            "id": "typescript",
+            "name": "TypeScript",
+            "icon": "assets/skill-icons/typescript.png"
+        },
+        {
+            "id": "react",
+            "name": "React",
+            "icon": "assets/skill-icons/react.png"
+        },
+        {
+            "id": "react-router",
+            "name": "React Router",
+            "icon": "assets/skill-icons/react-router.png"
+        },
+        {
+            "id": "redux",
+            "name": "Redux",
+            "icon": "assets/skill-icons/redux.png"
+        },
+        {
+            "id": "socket.io",
+            "name": "Socket.io",
+            "icon": "assets/skill-icons/socket.png"
+        },
+        {
+            "id": "c-sharp",
+            "name": "C#",
+            "icon": "assets/skill-icons/csharp.png"
+        },
+        {
+            "id": "unity",
+            "name": "Unity",
+            "icon": "assets/skill-icons/unity.png"
+        },
+        {
+            "id": "webpack",
+            "name": "Webpack",
+            "icon": "assets/skill-icons/webpack.png"
+        },
+        {
+            "id": "gulp",
+            "name": "Gulp",
+            "icon": "assets/skill-icons/gulp.png"
+        },
+        {
+            "id": "git",
+            "name": "Git",
+            "icon": "assets/skill-icons/git.png"
+        },
+        {
+            "id": "docker",
+            "name": "Docker",
+            "icon": "assets/skill-icons/docker.png"
+        },
+        {
+            "id": "linux",
+            "name": "Linux",
+            "icon": "assets/skill-icons/linux.png"
+        }
+    ]
+}

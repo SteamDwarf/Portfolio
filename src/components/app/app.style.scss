@@ -2,4 +2,10 @@
     width: 800px;
     margin: 0 auto;
 }
+
+.app__container.blur {
+    filter: blur(4px);
+    pointer-events: none;
+    user-select: none;
+}
   

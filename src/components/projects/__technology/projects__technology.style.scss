@@ -1,0 +1,17 @@
+@import '../../../scss/vars.scss';
+
+.projects__technology {
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 5px 8px;
+    border: 1px solid $primary;
+    border-radius: 4px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        background-color: $primary;
+    }
+}

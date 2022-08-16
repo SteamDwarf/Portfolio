@@ -1,0 +1,19 @@
+@import '../../scss/vars.scss';
+
+.skills {
+    margin-bottom: 70px;
+    
+    &__title {
+        margin-bottom: 32px;
+        font-size: 48px;
+        line-height: 60px;
+        color: $primary;
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+}
