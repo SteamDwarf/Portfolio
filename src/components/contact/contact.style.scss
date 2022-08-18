@@ -1,0 +1,61 @@
+@import '../../scss/vars.scss';
+
+.contact {
+    margin-bottom: 70px;
+
+    &__title {
+        margin-bottom: 32px;
+        font-size: 48px;
+        line-height: 60px;
+        color: $primary;
+    }
+
+    &__form {
+        max-width: 450px;
+        margin: 0 auto;
+        text-align: center;
+
+        &-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0px 16px;
+        }
+    }
+
+    &__input-item {
+        position: relative;
+        margin-bottom: 24px;
+    }
+
+    &__input-label {
+        position: absolute;
+        top: -15px;
+        left: 20px;
+        padding: 5px 8px;
+        font-size: 16px;
+        color: $darkPrimary;
+        background-color: $background;
+    }
+
+    &__input {
+        width: 435px;
+        padding: 15px;
+        outline: none;
+        border: 3px solid $lightPrimary;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        background-color: $background;
+
+        &_type_textarea {
+            min-height: 120px;
+        }
+    }
+
+    &__submit {
+        border: none;
+        background-color: transparent;
+        font-size: 16px;
+    }
+}

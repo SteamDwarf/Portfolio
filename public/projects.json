@@ -27,6 +27,83 @@
             ],
             "projectLink": "https://steamdwarf.github.io/HPStore/",
             "sourceCode": "https://github.com/SteamDwarf/HPStore"
+        },
+        {
+            "title": "CMS для магазина",
+            "description": "В этом проекте я создал СMS для управления товарами интернет-магазина. В данной программе есть возможность добавлять новый продукт, изменять продукт и удалять его. Также я создал возможность загрузки изображения товара на сервер. Для более комфортного управления UI я создал собственную реализацию паттерна Observer.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Webpack", "Github Pages"],
+            "images": [
+                "assets/projects-images/cms-for-shop/1.png",
+                "assets/projects-images/cms-for-shop/2.png",
+                "assets/projects-images/cms-for-shop/3.png",
+                "assets/projects-images/cms-for-shop/4.png",
+                "assets/projects-images/cms-for-shop/5.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/CMS-for-shop/",
+            "sourceCode": "https://github.com/SteamDwarf/CMS-for-shop"
+        },
+        {
+            "title": "Taskello",
+            "description": "Приложение, позволяющее создавать и управлять доской задач. В этом проекте я научился использовать drag`n drop события, создавать элементы DOM в реальном времени и изучил принципы функционального программирования.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Webpack", "Github Pages"],
+            "images": [
+                "assets/projects-images/taskello/1.png",
+                "assets/projects-images/taskello/2.png",
+                "assets/projects-images/taskello/3.png",
+                "assets/projects-images/taskello/4.png",
+                "assets/projects-images/taskello/5.png",
+                "assets/projects-images/taskello/6.png",
+                "assets/projects-images/taskello/7.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/Taskello/",
+            "sourceCode": "https://github.com/SteamDwarf/Taskello"
+        },
+        {
+            "title": "Обработка сигналов",
+            "description": "Это приложение синтезирует цифровой фильтр и исследует прохождение заданного сигнала через цифровой фильтр. Подсчитывает коэффициенты фильтра, строит блок-схему фильтра, строит графики.",
+            "technologies": ["HTML", "CSS", "TypeScript", "Google Charts", "Webpack"],
+            "images": [
+                "assets/projects-images/signal-processing/1.png",
+                "assets/projects-images/signal-processing/2.png",
+                "assets/projects-images/signal-processing/3.png",
+                "assets/projects-images/signal-processing/4.png",
+                "assets/projects-images/signal-processing/5.png",
+                "assets/projects-images/signal-processing/6.png",
+                "assets/projects-images/signal-processing/7.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/SignalProcessing/",
+            "sourceCode": "https://github.com/SteamDwarf/SignalProcessing"
+        },
+        {
+            "title": "IRVAS остекление балконов",
+            "description": "В этом проекте мне необходимо было реализовать логику приложения с помощью JS, используя готовую верстку сайта. В этом проекте были реализованы модальные окна, которые представляли из себя контактную форму, калькулятор расчета заказа, фотографии. Также были реализованы табы и таймер. Вся логика работы с DOM деревом была разделена на независимые модули",
+            "technologies": ["JavaScript", "JSON server", "Webpack", "Gulp"],
+            "images": [
+                "assets/projects-images/irvas/1.png",
+                "assets/projects-images/irvas/2.png",
+                "assets/projects-images/irvas/3.png",
+                "assets/projects-images/irvas/4.png",
+                "assets/projects-images/irvas/5.png",
+                "assets/projects-images/irvas/6.png",
+                "assets/projects-images/irvas/7.png",
+                "assets/projects-images/irvas/8.png",
+                "assets/projects-images/irvas/9.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/JS-Project-webpack-babel-gulp-/",
+            "sourceCode": "https://github.com/SteamDwarf/JS-Project-webpack-babel-gulp-"
+        },
+        {
+            "title": "Калькулятор",
+            "description": "Простой калькулятор, созданный на JavaScript. Я научился использовать регулярные выражения и работать с математикой в JavaScript.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "images": [
+                "assets/projects-images/calculator/1.png",
+                "assets/projects-images/calculator/2.png",
+                "assets/projects-images/calculator/3.png",
+                "assets/projects-images/calculator/4.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/Calculator-JS/",
+            "sourceCode": "https://github.com/SteamDwarf/Calculator-JS"
         }
     ]
 }

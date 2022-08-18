@@ -1,0 +1,31 @@
+@import '../../scss/vars.scss';
+
+.request-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: pre-line;
+    overflow: hidden;
+    background-color: transparent;
+
+    & *:first-child {
+        margin-right: 16px;
+    }
+
+    &_type_success {
+        color: green;
+    }
+
+    &_type_error {
+        color: rgb(166, 2, 2);
+    }
+
+    &_type_hide {
+        opacity: 0;
+    }
+}

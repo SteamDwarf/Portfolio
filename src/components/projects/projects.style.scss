@@ -1,6 +1,7 @@
 @import '../../scss/vars.scss';
 
 .projects {
+    position: relative;
     margin-bottom: 70px;
 
     &__title {
@@ -10,10 +11,52 @@
         color: $primary;
     }
 
+
     &__container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        column-gap: 72px;
+        justify-content: center;
+        column-gap: 44px;
+        row-gap: 44px;
+        padding: 34px 0px 68px;
+        overflow-y: hidden;
+        transition: all 0.5s;
+
+        &-cover {
+            position: absolute;
+            bottom: 0%;
+            width: 100%;
+            height: 40px;
+            background-color: white;
+            opacity: 0.8;
+            text-align: center;
+            color: $primary;
+            font-weight: bold;
+            font-size: 18px;
+        }
     }
+
+    &__show-more {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+
+        &-checkbox {
+            display: none;
+
+            &:checked ~ * .projects__show-more {
+                flex-direction: column-reverse;
+            }
+
+            &:checked ~ div .projects__show-more svg {
+                transform: rotate(180deg);
+            }
+        }
+
+        & svg {
+            font-size: 36px;
+            transition: transform 0.5s;
+        }
+    }
+    
 }

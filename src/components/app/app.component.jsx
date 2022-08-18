@@ -8,6 +8,7 @@ import Modal from '../modal/modal.component';
 import { useContext, useState } from 'react';
 import { faL } from '@fortawesome/free-solid-svg-icons';
 import { AppContext } from '../../context/app-context.context';
+import Contact from '../contact/contact.component';
 
 function App() {
   const {isModalOpen, modalContent} = useContext(AppContext);
@@ -18,9 +19,9 @@ function App() {
         <Header />
         <main>
           <Introduction />
-{/*           <About /> */}
           <Skills />
           <Projects />
+          <Contact />
         </main>
       </div>
       {isModalOpen && modalContent ? <Modal>{modalContent}</Modal> : null}
