@@ -1,7 +1,7 @@
+import './skills.style.scss';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { fetchData, getPublicPath } from '../../utils/data';
-import './skills.style.scss';
+import { fetchData } from '../../utils/data';
 import SkillsItem from './__item/skills__item.component';
 
 const Skills = () => {

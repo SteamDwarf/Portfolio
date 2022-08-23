@@ -29,3 +29,9 @@
         opacity: 0;
     }
 }
+
+@media (max-width: 440px) {
+    .request-status {
+        font-size: 16px;
+    }
+}

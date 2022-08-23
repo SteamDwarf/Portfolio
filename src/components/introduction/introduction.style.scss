@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     column-gap: 27px;
-    margin-bottom: 70px;
+    padding-top: 80px;
 
     &__cartoon-image {
         width: 212px;
@@ -60,6 +60,10 @@
             &_linkedin {
                 color: #0a66c2;;
             }
+
+            &_mail {
+                color: rgb(245, 64, 64)
+            }
         }
     }
 
@@ -68,4 +72,33 @@
         align-items: center;
         justify-content: space-between;
     }    
+}
+
+@media (max-width: 670px) {
+    .introduction {
+        flex-direction: column;
+
+        &__cartoon-image {
+            margin-bottom: 18px;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .introduction {
+        text-align: center;
+
+        &__title {
+            font-size: 38px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
+
+        &__interactive {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    }
 }

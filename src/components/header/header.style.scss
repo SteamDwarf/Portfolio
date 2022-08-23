@@ -1,11 +1,14 @@
 @import '../../scss/vars.scss';
 
 .header {
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 44px 0;
-    margin-bottom: 30px;
+    width: 820px;
+    padding: 20px 5px;
+    background-color: $background;
+    z-index: 5;
 
     &__logo {
         color: $primary;
@@ -18,12 +21,20 @@
         &-item {
             display: inline-block;
             color: $primary;
+            font-size: 18;
             transition: all 0.3s;
             cursor: pointer;
+            text-decoration: none;
         }
 
         &-item:hover {
             text-shadow: 0 0 .65px #333, 0 0 .65px #333;
         }
+    }
+}
+
+@media (max-width: 840px) {
+    .header {
+        width: 100%;
     }
 }

@@ -26,8 +26,15 @@
         position: absolute;
         top: 4px;
         right: 8px;
-        font-size: 32px;
+        font-size: 52px;
+        line-height: 30px;
         cursor: pointer;
         color: $primary;
+    }
+}
+
+@media (max-width: 1020px) {
+    .modal {
+        margin: 0 8px;
     }
 }

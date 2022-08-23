@@ -1,6 +1,8 @@
 @import '../../../scss/vars.scss';
 
 .projects__item {
+    max-width: 359px;
+    height: 500px;
     border-radius: 4px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -11,13 +13,18 @@
     }
 
     &-img {
-        max-width: 359px;
+        width: 100%;
+        height: 200px;
         border-radius: 4px 4px 0px 0px;
     }
 
     &-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 290px;
         padding: 16px;
-        max-width: 359px;
     }
 
     &-title {
@@ -29,10 +36,6 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-    }
-
-    &-technologies {
-        margin-bottom: 16px;
     }
 
     &-technology {
@@ -53,7 +56,6 @@
 
     &-description {
         height: 72px;
-        margin-bottom: 20px;
         font-size: 16px;
         line-height: 24px;
         overflow: hidden;
@@ -61,5 +63,20 @@
 
     &-link:first-of-type {
         margin-right: 25px;
+    }
+}
+
+@media (max-width: 440px) {
+    .projects__item {
+        max-width: 96%;
+        /* margin: 0px 8px; */
+
+        &:hover {
+            transform: scale(1);
+        }
+
+        &-description {
+            height: 50px;
+        }
     }
 }

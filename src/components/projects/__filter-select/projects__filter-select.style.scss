@@ -1,0 +1,23 @@
+@import '../../../scss/vars.scss';
+
+.project__filter-select {
+    align-self: flex-end;
+    width: 200px;
+    padding: 7px 8px 5px;
+    border: 2px solid $primary;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.project__filter:hover {
+    background-color: $primary;
+}
+
+@media (max-width: 440px) {
+    .project__filter-select {
+        align-self: center;
+        margin-bottom: 16px;
+    }
+}

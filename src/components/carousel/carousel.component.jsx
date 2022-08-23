@@ -36,9 +36,11 @@ const Carousel = ({className, carouselItems}) => {
                 onClick={nextSlide}
             />
             <div className="carousel__items-container" style={{transform: `translateX(-${curSlide * 100}%)`}}>
-                {carouselItems.map(item => {
-                    return <img key={Date.now() * Math.random()} src={getPublicPath(item)} className="carousel__item" />
-                })}
+                {
+                    carouselItems.map(item => {
+                        return <img key={Date.now() * Math.random()} src={getPublicPath(item)} className="carousel__item" />
+                    })
+                }
             </div>
         </div>
     );

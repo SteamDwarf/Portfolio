@@ -1,6 +1,7 @@
 import './header.style.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
+import HeaderNav from './__nav/header__nav.component';
 
 const Header = () => {
     return (
@@ -8,12 +9,7 @@ const Header = () => {
             <div className="header__logo-container">
                 <FontAwesomeIcon icon={faCode} className="header__logo"/>
             </div>
-            <nav className="header__nav">
-                <span className="header__nav-item">Обо мне</span>
-                <span className="header__nav-item">Навыки</span>
-                <span className="header__nav-item">Проекты</span>
-                <span className="header__nav-item">Связаться</span>
-            </nav>
+            <HeaderNav />
         </header>
     );
 }

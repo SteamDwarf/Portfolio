@@ -1,0 +1,49 @@
+@import '../../scss/vars.scss';
+
+.burger-btn {
+    display: none;
+    width: 28px;
+    height: 20px;
+    padding-top: 8px;
+    cursor: pointer;
+    background-color: #fff;
+
+    &__content,
+    &__content::before,
+    &__content::after {
+        position: absolute;
+        width: 28px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: $primary;
+        transition: transform 0.3s;
+    }
+
+    &__content::before {
+        content: '';
+        margin-top: -8px;
+    }
+
+    &__content::after {
+        content: '';
+        margin-top: 8px;
+    }
+}
+
+@media(max-width: 440px) {
+    .burger-btn {
+        display: block;
+    }
+
+    .burger-btn.active .burger-btn__content {
+        background-color: transparent;
+    }
+    .burger-btn.active .burger-btn__content::before {
+        margin-top: 0px;
+        transform: rotate(-45deg);
+    }
+    .burger-btn.active .burger-btn__content::after {
+        margin-top: 0px;
+        transform: rotate(45deg);
+    }
+}

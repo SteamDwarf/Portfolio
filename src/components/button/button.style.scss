@@ -17,4 +17,16 @@
         color: #fff;
         background-color: $primary;
     }
+
+    &:disabled {
+        color: $lightPrimary;
+        background-color: $lightPrimary;
+        border-color: $lightPrimary;
+    }
+}
+
+@media (max-width: 440px) {
+    .button {
+        font-size: 16px;
+    }
 }

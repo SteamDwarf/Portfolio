@@ -2,7 +2,7 @@
     "dataList": [
         {
             "title": "Chatter",
-            "description": "Веб-чат на React с библиотекой Socket.io. В этом проекте я научился поднимать простой сервер на фреймворке Express, как работать с библиотекой Socket.io на стороне клиента и сервера. Также узнал, как TypeScript работает в связке с Express и React. Бэкенд был развернут на Heroku, фронтенд — на Github Pages.",
+            "description": "Веб-чат на React с библиотекой Socket.io. В этом проекте я научился поднимать простой сервер на фреймворке Express, изучил как работать с библиотекой Socket.io на стороне клиента и сервера. Также узнал, как TypeScript работает в связке с Express и React. Бэкенд был развернут на Heroku, фронтенд — на Github Pages.",
             "technologies": ["HTML", "CSS", "React", "TypeScript", "Express", "Socket.io", "Heroku", "Github Pages"],
             "images": [
                 "assets/projects-images/chatter/3.png",
@@ -104,6 +104,40 @@
             ],
             "projectLink": "https://steamdwarf.github.io/Calculator-JS/",
             "sourceCode": "https://github.com/SteamDwarf/Calculator-JS"
+        },
+        {
+            "title": "Игра 'Жизнь' и Муравей Лэнгтона",
+            "description": "В данном проекте, с помощью языка C#, были реализованы два клеточных автомата: Игра 'Жизнь' Джона Конвея и Муравей Лэнгтона.",
+            "technologies": ["С#", "Windows Forms"],
+            "images": [
+                "assets/projects-images/game-of-life/1.png",
+                "assets/projects-images/game-of-life/2.png",
+                "assets/projects-images/game-of-life/3.png",
+                "assets/projects-images/game-of-life/4.png",
+                "assets/projects-images/game-of-life/5.png",
+                "assets/projects-images/game-of-life/6.png"
+            ],
+            "projectLink": "https://mega.nz/file/2CxGxTiL#4Cz8WYinQsyY2CAxbWxMS6EUvshgug1lWeyiuNDFFtM",
+            "sourceCode": "https://github.com/SteamDwarf/Game-of-life"
+        },
+        {
+            "title": "Игра 'Rogulik'",
+            "description": "Данная игра была создана с использованием игрового движка Unity. В ней реализовано случайное генерирование подземелья, случайное распределение врагов и предметов. Создано несколько видов зелий и метательных предметов. Создан полноценный инвентарь.",
+            "technologies": ["С#", "Unity"],
+            "images": [
+                "assets/projects-images/rogulik/1.png",
+                "assets/projects-images/rogulik/2.png",
+                "assets/projects-images/rogulik/3.png",
+                "assets/projects-images/rogulik/4.png",
+                "assets/projects-images/rogulik/5.png",
+                "assets/projects-images/rogulik/6.png",
+                "assets/projects-images/rogulik/7.png",
+                "assets/projects-images/rogulik/8.png",
+                "assets/projects-images/rogulik/9.png",
+                "assets/projects-images/rogulik/10.png"
+            ],
+            "projectLink": "https://drive.google.com/file/d/1S61rG4H1CtbSbN0A449iyQ57mgCztB2a/view?usp=sharing",
+            "sourceCode": "https://github.com/SteamDwarf/New-Unity-Project"
         }
     ]
 }

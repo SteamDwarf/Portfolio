@@ -19,3 +19,9 @@
         background-color: $primary;
     }
 }
+
+@media (max-width: 440px) {
+    .button-link {
+        font-size: 16px;
+    }
+}

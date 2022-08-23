@@ -8,10 +8,12 @@ import RequestStatus from '../request-status/request-status.componet';
 
 const Contact = () => {
     const [responseData, setResponseData] = useState({});
+    const [isLoading, setIsLoading] = useState(false);
     const form = useRef();
 
     const sendEmailSuccess = (response) => {
         setResponseData(response);
+        setIsLoading(false);
         form.current.reset();
         setTimeout(() => setResponseData({}), 3000);
     }
@@ -19,16 +21,18 @@ const Contact = () => {
     const sendEmailError = (response) => {
         console.error(response);
         setResponseData({status: response.status, text: `Error: ${response.status}`});
+        setIsLoading(false);
     }
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setIsLoading(true);
         sendEmailRequest(form.current, sendEmailSuccess, sendEmailError);
     }
     
 
     return (
-        <div className="contact">
+        <section className="contact" id="contact">
             <h2 className="contact__title">Связаться</h2>
             <form ref={form} onSubmit={sendEmail} className="contact__form">
                 <div className="contact__input-item">
@@ -45,10 +49,12 @@ const Contact = () => {
                 </div>
                 <div className="contact__form-footer">
                     <RequestStatus className="contact__form-request-status" response={responseData}/>
-                    <Button className="contact__submit" type="submit"><FontAwesomeIcon icon={faPaperPlane}/> Связаться</Button>
+                    <Button className="contact__submit" type="submit" disabled={isLoading ? true : false}>
+                        <FontAwesomeIcon icon={faPaperPlane}/> Связаться
+                    </Button>
                 </div>
             </form>
-        </div>
+        </section>
     );
 }
 

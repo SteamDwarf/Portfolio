@@ -1,14 +1,14 @@
 import './introduction.style.scss';
 import CartoonImage from '../../assets/images/cartoon-image.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandSpock, faClipboardUser } from '@fortawesome/free-solid-svg-icons';
+import { faHandSpock, faClipboardUser, faAt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faTelegram, faVk } from '@fortawesome/free-brands-svg-icons';
 import { getPublicPath } from '../../utils/data';
 import ButtonLink from '../button-link/button-link.component';
 
 const Introduction = () => {
     return (
-        <section className="introduction" id='introduction'>
+        <section className="introduction" id='about'>
             <img src={CartoonImage} className="introduction__cartoon-image" />
             <div className="introduction__inforamtion">
                 <h1 className="introduction__title">Привет <FontAwesomeIcon icon={faHandSpock} flip="horizontal" className="introduction__title-icon"/></h1>
@@ -28,8 +28,11 @@ const Introduction = () => {
                         <a href="https://t.me/ShazhkoDmitriy" target="_blank" className="introduction__link">
                             <FontAwesomeIcon className="introduction__link-icon introduction__link-icon_type_telegram" icon={faTelegram} />
                         </a>
-                        <a href="https://t.me/ShazhkoDmitriy" target="_blank" className="introduction__link">
+                        <a href="https://www.linkedin.com/in/dmitriy-shazhko-a66399244/" target="_blank" className="introduction__link">
                             <FontAwesomeIcon className="introduction__link-icon introduction__link-icon_type_linkedin" icon={faLinkedinIn} />
+                        </a>
+                        <a href="mailto:schajckodmitrij@gmail.com">
+                            <FontAwesomeIcon className="introduction__link-icon introduction__link-icon_type_mail" icon={faAt}/>
                         </a>
                     </nav>
 

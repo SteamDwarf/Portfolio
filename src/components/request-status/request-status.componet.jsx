@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck, faCircleExclamation } from '@fortawesome/free-solid-svg-icons';
 
 const RequestStatus = ({response, className}) => {
-    console.log(response);
-
     if(response.status) {
         return (
             <div className={`request-status ${className}

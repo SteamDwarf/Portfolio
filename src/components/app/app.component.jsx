@@ -1,12 +1,10 @@
 import './app.style.scss';
 import Header from '../header/header.component';
-import About from '../about/about.component';
 import Introduction from '../introduction/introduction.component';
 import Skills from '../skills/skills.component';
 import Projects from '../projects/projects.component';
 import Modal from '../modal/modal.component';
-import { useContext, useState } from 'react';
-import { faL } from '@fortawesome/free-solid-svg-icons';
+import { useContext } from 'react';
 import { AppContext } from '../../context/app-context.context';
 import Contact from '../contact/contact.component';
 

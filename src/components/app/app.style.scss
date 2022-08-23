@@ -1,4 +1,5 @@
 .app__container {
+    position: relative;
     width: 820px;
     margin: 0 auto;
 }
@@ -7,5 +8,11 @@
     filter: blur(4px);
     pointer-events: none;
     user-select: none;
+}
+
+@media(max-width: 840px) {
+    .app__container {
+        width: 100%;
+    }
 }
   

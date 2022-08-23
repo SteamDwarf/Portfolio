@@ -1,8 +1,8 @@
 import './projects__technology.style.scss';
 
-const ProjectTechnology = ({technology}) => {
+const ProjectTechnology = ({technology, onClick}) => {
     return (
-        <span className="projects__technology">{technology} </span>
+        <span className="projects__technology" onClick={onClick}>{technology} </span>
     );
 }
 
