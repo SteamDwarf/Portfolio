@@ -1,0 +1,143 @@
+{
+    "dataList": [
+        {
+            "title": "Chatter",
+            "description": "Веб-чат на React с библиотекой Socket.io. В этом проекте я научился поднимать простой сервер на фреймворке Express, изучил как работать с библиотекой Socket.io на стороне клиента и сервера. Также узнал, как TypeScript работает в связке с Express и React. Бэкенд был развернут на Heroku, фронтенд — на Github Pages.",
+            "technologies": ["HTML", "CSS", "React", "TypeScript", "Express", "Socket.io", "Heroku", "Github Pages"],
+            "images": [
+                "assets/projects-images/chatter/3.png",
+                "assets/projects-images/chatter/4.png",
+                "assets/projects-images/chatter/1.png",
+                "assets/projects-images/chatter/2.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/Chatter-frontend",
+            "sourceCode": "https://github.com/SteamDwarf/Chatter"
+        },
+        {
+            "title": "Harry Potter Store",
+            "description": "Простой интернет-магазин товаров из 'Волшебного мира'. В этом проекте я изучил, как работать с React, как работать с состоянием с помощью Redux ToolKit, как отправлять запросы с помощью RTK Query. Также изучил, как выполнять аутентификацию пользователей. ",
+            "technologies": ["HTML", "Sass", "React", "React Router", "Redux ToolKit", "Redux ToolKit Query", "Github Pages"],
+            "images": [
+                "assets/projects-images/hp-store/1.png",
+                "assets/projects-images/hp-store/2.png",
+                "assets/projects-images/hp-store/3.png",
+                "assets/projects-images/hp-store/4.png",
+                "assets/projects-images/hp-store/5.png",
+                "assets/projects-images/hp-store/6.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/HPStore/",
+            "sourceCode": "https://github.com/SteamDwarf/HPStore"
+        },
+        {
+            "title": "CMS для магазина",
+            "description": "В этом проекте я создал СMS для управления товарами интернет-магазина. В данной программе есть возможность добавлять новый продукт, изменять продукт и удалять его. Также я создал возможность загрузки изображения товара на сервер. Для более комфортного управления UI я создал собственную реализацию паттерна Observer.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Webpack", "Github Pages"],
+            "images": [
+                "assets/projects-images/cms-for-shop/1.png",
+                "assets/projects-images/cms-for-shop/2.png",
+                "assets/projects-images/cms-for-shop/3.png",
+                "assets/projects-images/cms-for-shop/4.png",
+                "assets/projects-images/cms-for-shop/5.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/CMS-for-shop/",
+            "sourceCode": "https://github.com/SteamDwarf/CMS-for-shop"
+        },
+        {
+            "title": "Taskello",
+            "description": "Приложение, позволяющее создавать и управлять доской задач. В этом проекте я научился использовать drag`n drop события, создавать элементы DOM в реальном времени и изучил принципы функционального программирования.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Webpack", "Github Pages"],
+            "images": [
+                "assets/projects-images/taskello/1.png",
+                "assets/projects-images/taskello/2.png",
+                "assets/projects-images/taskello/3.png",
+                "assets/projects-images/taskello/4.png",
+                "assets/projects-images/taskello/5.png",
+                "assets/projects-images/taskello/6.png",
+                "assets/projects-images/taskello/7.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/Taskello/",
+            "sourceCode": "https://github.com/SteamDwarf/Taskello"
+        },
+        {
+            "title": "Обработка сигналов",
+            "description": "Это приложение синтезирует цифровой фильтр и исследует прохождение заданного сигнала через цифровой фильтр. Подсчитывает коэффициенты фильтра, строит блок-схему фильтра, строит графики.",
+            "technologies": ["HTML", "CSS", "TypeScript", "Google Charts", "Webpack"],
+            "images": [
+                "assets/projects-images/signal-processing/1.png",
+                "assets/projects-images/signal-processing/2.png",
+                "assets/projects-images/signal-processing/3.png",
+                "assets/projects-images/signal-processing/4.png",
+                "assets/projects-images/signal-processing/5.png",
+                "assets/projects-images/signal-processing/6.png",
+                "assets/projects-images/signal-processing/7.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/SignalProcessing/",
+            "sourceCode": "https://github.com/SteamDwarf/SignalProcessing"
+        },
+        {
+            "title": "IRVAS остекление балконов",
+            "description": "В этом проекте мне необходимо было реализовать логику приложения с помощью JS, используя готовую верстку сайта. В этом проекте были реализованы модальные окна, которые представляли из себя контактную форму, калькулятор расчета заказа, фотографии. Также были реализованы табы и таймер. Вся логика работы с DOM деревом была разделена на независимые модули",
+            "technologies": ["JavaScript", "JSON server", "Webpack", "Gulp"],
+            "images": [
+                "assets/projects-images/irvas/1.png",
+                "assets/projects-images/irvas/2.png",
+                "assets/projects-images/irvas/3.png",
+                "assets/projects-images/irvas/4.png",
+                "assets/projects-images/irvas/5.png",
+                "assets/projects-images/irvas/6.png",
+                "assets/projects-images/irvas/7.png",
+                "assets/projects-images/irvas/8.png",
+                "assets/projects-images/irvas/9.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/JS-Project-webpack-babel-gulp-/",
+            "sourceCode": "https://github.com/SteamDwarf/JS-Project-webpack-babel-gulp-"
+        },
+        {
+            "title": "Калькулятор",
+            "description": "Простой калькулятор, созданный на JavaScript. Я научился использовать регулярные выражения и работать с математикой в JavaScript.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "images": [
+                "assets/projects-images/calculator/1.png",
+                "assets/projects-images/calculator/2.png",
+                "assets/projects-images/calculator/3.png",
+                "assets/projects-images/calculator/4.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/Calculator-JS/",
+            "sourceCode": "https://github.com/SteamDwarf/Calculator-JS"
+        },
+        {
+            "title": "Игра 'Жизнь' и Муравей Лэнгтона",
+            "description": "В данном проекте, с помощью языка C#, были реализованы два клеточных автомата: Игра 'Жизнь' Джона Конвея и Муравей Лэнгтона.",
+            "technologies": ["С#", "Windows Forms"],
+            "images": [
+                "assets/projects-images/game-of-life/1.png",
+                "assets/projects-images/game-of-life/2.png",
+                "assets/projects-images/game-of-life/3.png",
+                "assets/projects-images/game-of-life/4.png",
+                "assets/projects-images/game-of-life/5.png",
+                "assets/projects-images/game-of-life/6.png"
+            ],
+            "projectLink": "https://mega.nz/file/2CxGxTiL#4Cz8WYinQsyY2CAxbWxMS6EUvshgug1lWeyiuNDFFtM",
+            "sourceCode": "https://github.com/SteamDwarf/Game-of-life"
+        },
+        {
+            "title": "Игра 'Rogulik'",
+            "description": "Данная игра была создана с использованием игрового движка Unity. В ней реализовано случайное генерирование подземелья, случайное распределение врагов и предметов. Создано несколько видов зелий и метательных предметов. Создан полноценный инвентарь.",
+            "technologies": ["С#", "Unity"],
+            "images": [
+                "assets/projects-images/rogulik/1.png",
+                "assets/projects-images/rogulik/2.png",
+                "assets/projects-images/rogulik/3.png",
+                "assets/projects-images/rogulik/4.png",
+                "assets/projects-images/rogulik/5.png",
+                "assets/projects-images/rogulik/6.png",
+                "assets/projects-images/rogulik/7.png",
+                "assets/projects-images/rogulik/8.png",
+                "assets/projects-images/rogulik/9.png",
+                "assets/projects-images/rogulik/10.png"
+            ],
+            "projectLink": "https://drive.google.com/file/d/1S61rG4H1CtbSbN0A449iyQ57mgCztB2a/view?usp=sharing",
+            "sourceCode": "https://github.com/SteamDwarf/New-Unity-Project"
+        }
+    ]
+}
