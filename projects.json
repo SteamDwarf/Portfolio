@@ -138,6 +138,21 @@
             ],
             "projectLink": "https://drive.google.com/file/d/1S61rG4H1CtbSbN0A449iyQ57mgCztB2a/view?usp=sharing",
             "sourceCode": "https://github.com/SteamDwarf/New-Unity-Project"
+        },
+        {
+            "title": "Симулятор солнечной системы",
+            "description": "Проект - просто симулятор солнечной системы. В данном проекте для передвижения космических тел использовались законы физики. Также имеется возможность ускорять и замедлять время симуляции, получать информацию о текущей скорости планет и их расстоянии до Солнца.",
+            "technologies": ["С#", "Unity"],
+            "images": [
+                "assets/projects-images/solar-system/1.png",
+                "assets/projects-images/solar-system/2.png",
+                "assets/projects-images/solar-system/3.png",
+                "assets/projects-images/solar-system/4.png",
+                "assets/projects-images/solar-system/5.png",
+                "assets/projects-images/solar-system/6.png"
+            ],
+            "projectLink": "https://mega.nz/file/jex1ST6L#YopUVDyxEHYFBJR5-VCkChkZpqgXUH-FtUzoXzhHu70",
+            "sourceCode": "https://github.com/SteamDwarf/SS_Unity"
         }
     ]
 }
