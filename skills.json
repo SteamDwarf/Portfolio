@@ -31,6 +31,16 @@
             "icon": "assets/skill-icons/typescript.png"
         },
         {
+            "id": "express",
+            "name": "Express",
+            "icon": "assets/skill-icons/express.png"
+        },
+        {
+            "id": "mongo",
+            "name": "MongoDB",
+            "icon": "assets/skill-icons/mongo.png"
+        },
+        {
             "id": "react",
             "name": "React",
             "icon": "assets/skill-icons/react.png"

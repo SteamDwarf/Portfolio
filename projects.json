@@ -1,6 +1,21 @@
 {
     "dataList": [
         {
+            "title": "Тавлея",
+            "description": "Программа позволяющая судьям эффективно и удобно проводить соревнования по шашкам, а также хранить данные игроков и турниров. В мои обязанности входила разработка серверной части, а также переодически оказывал помощь напарнику в разработке клиентской части. Приложение умеет: \n\ta. хранить данные турниров и игроков. \n\tb. проводить жеребьевку по круговой и швейцарской системам. \n\tc. позволяет пользователю добавлять в базу данных информацию о новых игроках и турнирах, вносить изменения в уже имеющиеся данные, а также выполнять удаление данных. \n\td. Расчитывать рейтинги, коэфициенты игроков. \n\te. Создавать отчетную документацию ",
+            "technologies": ["HTML", "CSS", "React", "TypeScript", "Express", "MongoDB", "Node.js"],
+            "images": [
+                "assets/projects-images/tavleya/1.png",
+                "assets/projects-images/tavleya/2.png",
+                "assets/projects-images/tavleya/3.png",
+                "assets/projects-images/tavleya/4.png",
+                "assets/projects-images/tavleya/5.png",
+                "assets/projects-images/tavleya/6.png"
+            ],
+            "projectLink": "https://tavleya-rf.ru",
+            "sourceCode": "https://github.com/SteamDwarf/CheckersReferee"
+        },
+        {
             "title": "Chatter",
             "description": "Веб-чат на React с библиотекой Socket.io. В этом проекте я научился поднимать простой сервер на фреймворке Express, изучил как работать с библиотекой Socket.io на стороне клиента и сервера. Также узнал, как TypeScript работает в связке с Express и React. Бэкенд был развернут на Heroku, фронтенд — на Github Pages.",
             "technologies": ["HTML", "CSS", "React", "TypeScript", "Express", "Socket.io", "Heroku", "Github Pages"],
@@ -41,6 +56,18 @@
             ],
             "projectLink": "https://steamdwarf.github.io/CMS-for-shop/",
             "sourceCode": "https://github.com/SteamDwarf/CMS-for-shop"
+        },
+        {
+            "title": "Сайт для евразийской технологической платформы",
+            "description": "В этом проекте я создал cайт для евразийской технологической платформы, которая занимается технологиями производства, переработки и применения эфтромасличных и лекарственных растений. Данный сайт был создан с помощью технологии Wordpress. Для этого сайта была разработана собственная тема",
+            "technologies": ["HTML", "CSS", "Wordpress"],
+            "images": [
+                "assets/projects-images/eurasian-technology-platform/1.png",
+                "assets/projects-images/eurasian-technology-platform/2.png",
+                "assets/projects-images/eurasian-technology-platform/3.png",
+                "assets/projects-images/eurasian-technology-platform/4.png"
+            ],
+            "projectLink": "https://emplatform.ru"
         },
         {
             "title": "Taskello",
@@ -104,6 +131,16 @@
             ],
             "projectLink": "https://steamdwarf.github.io/Calculator-JS/",
             "sourceCode": "https://github.com/SteamDwarf/Calculator-JS"
+        },
+        {
+            "title": "WebPainter",
+            "description": "Приложение позволяющее рисовать. В данном приложении имеется функционал по смене цвета, изменение размера кисти, смена фона, отмена действий. Также имеются инструменты такие как: карандаш, ластик квадрат и окружность.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "images": [
+                "assets/projects-images/web-painter/1.png"
+            ],
+            "projectLink": "https://steamdwarf.github.io/WebPainter/",
+            "sourceCode": "https://github.com/SteamDwarf/WebPainter"
         },
         {
             "title": "Игра 'Жизнь' и Муравей Лэнгтона",
