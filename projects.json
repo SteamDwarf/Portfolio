@@ -25,7 +25,7 @@
                 "assets/projects-images/chatter/1.png",
                 "assets/projects-images/chatter/2.png"
             ],
-            "projectLink": "https://steamdwarf.github.io/Chatter-frontend",
+            "projectLink": "https://chatterapp-m21e.onrender.com",
             "sourceCode": "https://github.com/SteamDwarf/Chatter"
         },
         {
@@ -59,7 +59,7 @@
         },
         {
             "title": "Сайт для евразийской технологической платформы",
-            "description": "В этом проекте я создал cайт для евразийской технологической платформы, которая занимается технологиями производства, переработки и применения эфтромасличных и лекарственных растений. Данный сайт был создан с помощью технологии Wordpress. Для этого сайта была разработана собственная тема",
+            "description": "Cайт для евразийской технологической платформы, которая занимается технологиями производства, переработки и применения эфтромасличных и лекарственных растений. Данный сайт был создан с помощью технологии Wordpress. Для этого сайта была разработана тема по предоставленному макету",
             "technologies": ["HTML", "CSS", "Wordpress"],
             "images": [
                 "assets/projects-images/eurasian-technology-platform/1.png",
