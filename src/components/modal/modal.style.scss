@@ -2,10 +2,10 @@
 
 .modal {
     position: fixed;
-    top: 0%;
-    left: 0%;
-    bottom: 0%;
-    right: 0%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +35,22 @@
 
 @media (max-width: 1020px) {
     .modal {
-        margin: 0 8px;
+        padding: 0 8px;
+    }
+}
+
+@media (max-height: 768px) {
+    .modal {
+        &__container {
+            max-width: 500px;
+        }
+    }
+}
+
+@media (max-height: 599px) {
+    .modal {
+        &__container {
+            max-width: 400px;
+        }
     }
 }

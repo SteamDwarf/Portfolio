@@ -9,7 +9,7 @@
     &-link {
         display: inline-block;
         color: $primary;
-        font-size: 18;
+        font-size: 18px;
         transition: all 0.3s;
         cursor: pointer;
         text-decoration: none;
@@ -23,7 +23,8 @@
 
 @media (max-width: 440px) {
     .header__nav-list {
-        position: fixed;
+        display: none;
+        position: absolute;
         top: 60px;
         right: 0;
         flex-direction: column;
@@ -38,12 +39,16 @@
         z-index: 5;
 
         &.active {
+            display: flex;
+            align-items: center;
             transform: translate(0%);
         }
     }
 
     .header__nav-link {
         margin: 0;
+        border-bottom: 1px solid;
+        padding-bottom: 3px;
     }
 
     .header__nav-link {

@@ -25,16 +25,29 @@ const Carousel = ({className, carouselItems}) => {
 
     return (
         <div className={`carousel ${className}`}>
-            <FontAwesomeIcon 
-                className="carousel__arrow carousel__arrow_direction_prev" 
-                icon={faAngleLeft}
-                onClick={prevSlide}
-            />
-            <FontAwesomeIcon 
-                className="carousel__arrow carousel__arrow_direction_next" 
-                icon={faAngleRight}
-                onClick={nextSlide}
-            />
+            {
+                curSlide > 0
+                ? (
+                    <FontAwesomeIcon 
+                        className="carousel__arrow carousel__arrow_direction_prev" 
+                        icon={faAngleLeft}
+                        onClick={prevSlide}
+                    />
+                )
+                : null
+            }
+            {
+                curSlide < carouselItems.length - 1 
+                ? (
+                    <FontAwesomeIcon 
+                        className="carousel__arrow carousel__arrow_direction_next" 
+                        icon={faAngleRight}
+                        onClick={nextSlide}
+                    />
+                )
+                : null
+            }
+            
             <div className="carousel__items-container" style={{transform: `translateX(-${curSlide * 100}%)`}}>
                 {
                     carouselItems.map(item => {

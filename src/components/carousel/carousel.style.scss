@@ -4,6 +4,9 @@
     position: relative;
     overflow: hidden;
     user-select: none;
+    /* width: 90%; */
+    width: 100%;
+    margin: 0 auto;
 
     &__arrow {
         position: absolute;
@@ -34,18 +37,33 @@
 
     &__items-container {
         display: flex;
-        width: 100%;
         text-align: center;
         transition: transform 0.3s;
     }
     
     &__item {
         width: 100%;
-        max-width: 1000px;
+    }
+}
+
+@media (max-height: 799px) {
+    .carousel {
+        width: 90%;
     }
 }
 
 @media (max-width: 440px) {
+    .carousel {
+        width: 100%;
+
+        &__arrow {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+@media (max-height: 599px){
     .carousel {
         &__arrow {
             width: 30px;
@@ -53,3 +71,4 @@
         }
     }
 }
+

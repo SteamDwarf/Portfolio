@@ -7,22 +7,24 @@ import Modal from '../modal/modal.component';
 import { useContext } from 'react';
 import { AppContext } from '../../context/app-context.context';
 import Contact from '../contact/contact.component';
+import Footer from '../footer/footer.component';
 
 function App() {
   const {isModalOpen, modalContent} = useContext(AppContext);
 
   return (
     <div className="app">
+      {isModalOpen && modalContent ? <Modal>{modalContent}</Modal> : null}
       <div className={`app__container ${isModalOpen ? 'blur': ''}`}>
         <Header />
         <main>
           <Introduction />
           <Skills />
           <Projects />
-          <Contact />
+          <Footer />
+          {/* <Contact /> */}
         </main>
       </div>
-      {isModalOpen && modalContent ? <Modal>{modalContent}</Modal> : null}
     </div>
   );
 }

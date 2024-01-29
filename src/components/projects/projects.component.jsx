@@ -47,7 +47,7 @@ const Projects = () => {
     }
 
     const getContainerHeight = () => {
-        const rolledUpHeight = width > 806 ? '600px' : filteredProjects.length >= 2 ? '1160px' : '600px';
+        const rolledUpHeight = width > 806 ? '600px' : filteredProjects.length >= 2 ? '1140px' : '600px';
         const containerHeight = isShowMore ? projectsContainer.current.scrollHeight : rolledUpHeight;
 
         return containerHeight;

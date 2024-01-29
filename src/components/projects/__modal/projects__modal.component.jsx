@@ -19,8 +19,16 @@ const ProjectsModal = ({project}) => {
                     {project.technologies.map(technology => <ProjectTechnology key={technology} technology={technology}/>)}
                 </div>
                 <div className="projects__modal-links-container">
-                    <ButtonLink className="projects__modal-link" url={project.sourceCode} icon={faFileCode} text="Исходный код"/>
-                    <ButtonLink className="projects__modal-link" url={project.projectLink} icon={faEye} text="Демо"/>
+                    {
+                        project.sourceCode 
+                        ? <ButtonLink className="projects__item-link" url={project.sourceCode} icon={faFileCode} text="Исходный код"/>
+                        : null
+                    }
+                    {
+                        project.projectLink
+                        ? <ButtonLink className="projects__item-link" url={project.projectLink} icon={faEye} text="Демо"/>
+                        : null
+                    }
                 </div>
             </div>
             

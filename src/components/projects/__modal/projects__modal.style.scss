@@ -2,8 +2,7 @@
 
 .projects__modal {
     column-gap: 25px;
-    width: 100%;
-
+    
     &-details {
         display: flex;
         flex-direction: column;
@@ -22,6 +21,7 @@
         max-height: 100px;
         padding-right: 10px;
         overflow: auto;
+        white-space: break-spaces;
 
         &::-webkit-scrollbar {
             width: 10px;
@@ -50,5 +50,51 @@
         &-title {
             font-size: 24px;
         }
+
+        &-technologies {
+            text-align: center;
+        }
     }
 }
+
+@media (max-width: 800px) and (max-height: 599px) {
+    .projects__modal {
+
+        &-title {
+            font-size: 24px;
+        }
+
+        &-details {
+            margin-top: 8px;
+            font-size: 14px;
+            row-gap: 12px;
+        }
+
+        &-technologies {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        &-description {
+            max-height: 60px;
+        }
+        &-link {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 380px) and (max-height: 667px) {
+    .projects__modal {
+
+        &-details {
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+        &-description {
+            max-height: 100px;
+        }
+    }
+}
+

@@ -1,0 +1,28 @@
+.socials {
+    display: flex;
+    column-gap: 8px;
+
+    &__link-icon {
+        width: 40px;
+        height: 40px;
+
+        &_type {
+
+            &_vk {
+                color: #0077ff;
+            }
+
+            &_telegram {
+                color: #0088cc;
+            }
+
+            &_linkedin {
+                color: #0a66c2;;
+            }
+
+            &_mail {
+                color: rgb(245, 64, 64)
+            }
+        }
+    }
+}
