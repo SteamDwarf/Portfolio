@@ -25,6 +25,29 @@
             "projectLink": "https://app.apivpn.io/"
         },
         {
+            "title": "ASO PUSH",
+            "description": "Приложения для ASO специалистов",
+            "technologies": [
+                "HTML", 
+                "CSS", 
+                "React", 
+                "TypeScript",
+                "React Router",
+                "RTK",
+                "RTK Query",
+                "Ant Design"
+            ],
+            "images": [
+                "assets/projects-images/asopush/1.png",
+                "assets/projects-images/asopush/2.png",
+                "assets/projects-images/asopush/3.png",
+                "assets/projects-images/asopush/4.png",
+                "assets/projects-images/asopush/5.png",
+                "assets/projects-images/asopush/6.png"
+            ],
+            "projectLink": "https://dev.asopush.com"
+        },
+        {
             "title": "Chatter",
             "description": "Веб-чат на React с библиотекой Socket.io. В этом проекте я научился поднимать простой сервер на фреймворке Express, изучил как работать с библиотекой Socket.io на стороне клиента и сервера. Также узнал, как TypeScript работает в связке с Express и React. Бэкенд был развернут на Heroku, фронтенд — на Github Pages.",
             "technologies": ["HTML", "CSS", "React", "TypeScript", "Express", "Socket.io", "Heroku", "Github Pages"],
