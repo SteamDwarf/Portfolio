@@ -1,19 +1,28 @@
 {
     "dataList": [
         {
-            "title": "Тавлея",
-            "description": "Программа позволяющая судьям эффективно и удобно проводить соревнования по шашкам, а также хранить данные игроков и турниров. В мои обязанности входила разработка серверной части, а также переодически оказывал помощь напарнику в разработке клиентской части. Приложение умеет: \n\ta. хранить данные турниров и игроков. \n\tb. проводить жеребьевку по круговой и швейцарской системам. \n\tc. позволяет пользователю добавлять в базу данных информацию о новых игроках и турнирах, вносить изменения в уже имеющиеся данные, а также выполнять удаление данных. \n\td. Расчитывать рейтинги, коэфициенты игроков. \n\te. Создавать отчетную документацию ",
-            "technologies": ["HTML", "CSS", "React", "TypeScript", "Express", "MongoDB", "Node.js"],
-            "images": [
-                "assets/projects-images/tavleya/1.png",
-                "assets/projects-images/tavleya/2.png",
-                "assets/projects-images/tavleya/3.png",
-                "assets/projects-images/tavleya/4.png",
-                "assets/projects-images/tavleya/5.png",
-                "assets/projects-images/tavleya/6.png"
+            "title": "APIVPN",
+            "description": "Децентрализованная инфраструктура для VPN с использованием блокчейна TON",
+            "technologies": [
+                "HTML", 
+                "CSS", 
+                "React", 
+                "TypeScript",
+                "React Router",
+                "Ant Design",
+                "Tact",
+                "Tonconnect",
+                "amCharts5"
             ],
-            "projectLink": "https://tavleya-rf.ru",
-            "sourceCode": "https://github.com/SteamDwarf/CheckersReferee"
+            "images": [
+                "assets/projects-images/apivpn/1.png",
+                "assets/projects-images/apivpn/2.png",
+                "assets/projects-images/apivpn/3.png",
+                "assets/projects-images/apivpn/4.png",
+                "assets/projects-images/apivpn/5.png",
+                "assets/projects-images/apivpn/6.png"
+            ],
+            "projectLink": "https://app.apivpn.io/"
         },
         {
             "title": "Chatter",
